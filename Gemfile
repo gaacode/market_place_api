@@ -11,3 +11,9 @@ gem "uglifier", ">= 1.3.0"
 group :doc do
   gem "sdoc", require: false
 end
+
+group :test do
+  gem "factory_bot_rails"
+  gem "ffaker"
+  gem "rspec-rails", "~> 2.14"
+end
